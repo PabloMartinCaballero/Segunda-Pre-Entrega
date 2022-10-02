@@ -48,7 +48,7 @@
 /*Info blocks*/
 
 .info-block{
-    background-color: aquamarine;
+    
 }
 
 .info-text{
@@ -250,11 +250,11 @@ footer{
     /*Info blocks*/
 
     .info-block{
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     width: 100%;
     margin: 0 auto;
+    padding: 10px 0;
 
     }
 
