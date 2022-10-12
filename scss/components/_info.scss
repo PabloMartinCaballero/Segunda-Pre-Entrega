@@ -1,0 +1,38 @@
+/*infoblocks*/
+
+.info-block{
+
+    .info-text{
+        text-align: center;
+
+        @media (min-width: 820px){
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        }
+
+    }
+    .info-image{
+        text-align: center;
+
+        @media (min-width: 820px){
+        text-align: center; 
+        display: flex;
+        justify-content:end;
+        width: 50%;
+        }
+
+    }
+    @media (min-width: 820px){
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+    
+    }
+}
